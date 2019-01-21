@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //On initialise une classe et on la met dans le navigationController
+        let homeClass = HomeClass()
+        let navigationController = UINavigationController(rootViewController:homeClass)
+        //On initialise la fenêtre UIWindow
+        let w = UIWindow(frame: UIScreen.main.bounds)
+        //On indique au système la classe principal
+        w.rootViewController = navigationController
+        w.makeKeyAndVisible()
+        self.window = w
         return true
     }
 
@@ -43,4 +52,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+//On fait en sorte que ça lance sur la bonne page.
