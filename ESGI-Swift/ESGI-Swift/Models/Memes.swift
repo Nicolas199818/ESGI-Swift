@@ -11,7 +11,13 @@ import UIKit
 
 public struct Memes{
     var title:String
-    var image:UIImage
+    //var image:UIImage
     var type:String
+    
+    init(title:String,type:String){
+        self.title = title
+      //  self.image = image
+        self.type = type
+    }
     
 }
