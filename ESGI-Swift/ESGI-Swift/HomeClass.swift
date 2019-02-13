@@ -32,13 +32,24 @@ class HomeClass: UIViewController {
         memes.append(Memes(title:"Mulan",type:"Dessin animé"))
         memes.append(Memes(title:"Coco",type:"Dessin animé"))
         
-        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
         
         //On déclare le delegate qui permet de gérer les sélections - configurer les en-tête et les pieds de pages, de supprimer et réorganiser les cellules.
         self.tableView.register(UINib(nibName: "MemesTableViewCell", bundle: nil), forCellReuseIdentifier: HomeClass.memesCellId)
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
+        //On ajoute les boutons ajouter et éditer dans la barre du haut de l'iphone.
+        self.navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(touchEditTableView)),
+            UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(touchNewMovie))
+        ]
+        
         // Do any additional setup after loading the view.
+    }
+    
+    
+    
+    @objc func touchNewMovie() {
+    self.navigationController?.pushViewController(NewMemesView.newInstance(), animated: true)
     }
 
 
@@ -51,17 +62,35 @@ class HomeClass: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
+    @objc func touchEditTableView() {
+        UIView.animate(withDuration: 0.33) {
+            self.tableView.isEditing = !self.tableView.isEditing
+        }
+    }
     
 
 }
 
 //The object must adopt UITableViewDelegate protocole : pour cela on extends ceci
 extension HomeClass:UITableViewDelegate {
-    //On fait une fonction qui permet de rentrer dans le détail de la view qui nous intéresse.
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+        if editingStyle == .delete {
+            memes.remove(at: indexPath.row)
+            self.tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let removed = self.memes.remove(at: sourceIndexPath.row)
+        self.memes.insert(removed, at: destinationIndexPath.row)
+    }
+    
+    
+    
+    //Cette page permet d'accéder à la view de détail.
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //On sélectionne le même en question à partir de l'indexPath
-        let meme = memes[indexPath.row]
+        let meme = self.memes[indexPath.row]
         let detail = MemesDetailViewController.newInstance(meme: meme)
         self.navigationController?.pushViewController(detail, animated: true)
     }

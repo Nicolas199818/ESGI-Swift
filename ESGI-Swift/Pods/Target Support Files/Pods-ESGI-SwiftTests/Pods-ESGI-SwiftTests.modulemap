@@ -1,0 +1,6 @@
+framework module Pods_ESGI_SwiftTests {
+  umbrella header "Pods-ESGI-SwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

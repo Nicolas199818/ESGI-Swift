@@ -20,13 +20,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cti-1u-WWF" userLabel="Title Label">
-                        <rect key="frame" x="10" y="21" width="300" height="21"/>
+                        <rect key="frame" x="10" y="22" width="300" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="63x-NF-lhQ" userLabel="Image Memes">
-                        <rect key="frame" x="10" y="57" width="300" height="276.5"/>
+                        <rect key="frame" x="10" y="58" width="300" height="275.5"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuZ-dR-WpJ" userLabel="type Label">
                         <rect key="frame" x="10" y="358.5" width="300" height="21"/>
@@ -40,8 +40,8 @@
                     <constraint firstItem="63x-NF-lhQ" firstAttribute="top" secondItem="Cti-1u-WWF" secondAttribute="bottom" constant="15" id="89O-Ns-Vck"/>
                     <constraint firstAttribute="trailing" secondItem="63x-NF-lhQ" secondAttribute="trailing" constant="10" id="Cvw-1s-IzX"/>
                     <constraint firstAttribute="trailing" secondItem="iuZ-dR-WpJ" secondAttribute="trailing" constant="10" id="EjL-Yi-swf"/>
-                    <constraint firstItem="Cti-1u-WWF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="HaP-ej-Kn0"/>
                     <constraint firstItem="iuZ-dR-WpJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ILt-Oi-LSI"/>
+                    <constraint firstItem="Cti-1u-WWF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="K3J-4l-PWy"/>
                     <constraint firstItem="iuZ-dR-WpJ" firstAttribute="top" secondItem="63x-NF-lhQ" secondAttribute="bottom" constant="25" id="NfZ-KI-GTp"/>
                     <constraint firstAttribute="bottom" secondItem="iuZ-dR-WpJ" secondAttribute="bottom" constant="20" id="RUI-h8-d6G"/>
                     <constraint firstItem="Cti-1u-WWF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="cwS-W7-2gM"/>

@@ -31,7 +31,6 @@
                 <constraint firstItem="yeO-wJ-cW4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="7jd-sA-s5p"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="yeO-wJ-cW4" secondAttribute="bottom" constant="10" id="QdH-GO-0od"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yeO-wJ-cW4" secondAttribute="trailing" constant="10" id="aoS-0Q-fYL"/>
-                <constraint firstItem="yeO-wJ-cW4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="cNA-fG-58C"/>
                 <constraint firstItem="yeO-wJ-cW4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="myW-RI-Z5i"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

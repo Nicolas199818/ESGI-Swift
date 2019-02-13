@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SampleWebAPI
+
+  Created by Benoit BRIATTE on 29/01/2019.
+  Copyright © 2019 Digipolitan. All rights reserved.
+*/
+
+"controller.newmovie.title" = "Title";
+"controller.newmovie.release_date" = "Release date";
+"controller.newmovie.type" = "Type";
+"controller.newmovie.submit" = "Send !";
