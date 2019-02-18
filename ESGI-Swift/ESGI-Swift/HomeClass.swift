@@ -14,12 +14,17 @@ class HomeClass: UIViewController {
     //On déclare une variable pour la liste des memes.
     var memes:[Memes]!
     
+    
+    
+    
+    
+    
     //C'est une fonction qui ne varie pas ne fonction des différentes classes
-    class func newInstance(memes:[Memes]) -> HomeClass{
+    /*class func newInstance(memes:[Memes]) -> HomeClass{
         let mtvc = HomeClass()
         mtvc.memes = memes
         return mtvc
-    }
+    }*/
     
     override func viewDidLoad() {
         super.viewDidLoad()

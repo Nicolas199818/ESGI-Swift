@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ESGI_SwiftUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ESGI_SwiftUITestsVersionString[];
+FOUNDATION_EXPORT double SideMenuVersionNumber;
+FOUNDATION_EXPORT const unsigned char SideMenuVersionString[];
 

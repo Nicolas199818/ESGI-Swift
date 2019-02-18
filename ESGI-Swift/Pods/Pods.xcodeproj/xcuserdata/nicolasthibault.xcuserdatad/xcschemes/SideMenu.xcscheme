@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED2BE6097C93641BC9BD1F286716C64C"
-               BlueprintName = "Pods-ESGI-SwiftTests"
+               BlueprintIdentifier = "4FFA406772446DFC12A2C6C1B5AD9A45"
+               BlueprintName = "SideMenu"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-ESGI-SwiftTests.framework">
+               BuildableName = "SideMenu.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

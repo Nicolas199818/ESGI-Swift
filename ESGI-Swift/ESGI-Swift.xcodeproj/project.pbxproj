@@ -12,8 +12,11 @@
 		3E23A1E621F5384200391EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E23A1E421F5384200391EF8 /* LaunchScreen.storyboard */; };
 		3E23A1F121F5384200391EF8 /* ESGI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23A1F021F5384200391EF8 /* ESGI_SwiftTests.swift */; };
 		3E23A1FC21F5384200391EF8 /* ESGI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23A1FB21F5384200391EF8 /* ESGI_SwiftUITests.swift */; };
+		3EADD05F221B23EC0074C35B /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD05D221B23EC0074C35B /* TagViewController.swift */; };
+		3EADD060221B23EC0074C35B /* TagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADD05E221B23EC0074C35B /* TagViewController.xib */; };
 		3EB5F94B220394ED00C23B29 /* MemesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */; };
 		3EB5F94C220394ED00C23B29 /* MemesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */; };
+		3EC9A3B62218473400DC639F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9A3B52218473400DC639F /* CustomTabBarController.swift */; };
 		3ECD3A3F21F66BD300B2B16A /* HomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD3A3D21F66BD300B2B16A /* HomeClass.swift */; };
 		3ECD3A4021F66BD300B2B16A /* HomeClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD3A3E21F66BD300B2B16A /* HomeClass.xib */; };
 		3ECD3A4321F677A100B2B16A /* Memes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD3A4221F677A100B2B16A /* Memes.swift */; };
@@ -21,6 +24,7 @@
 		3EDDC74E220A4D8400B7ED99 /* NewMemesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EDDC74C220A4D8400B7ED99 /* NewMemesView.xib */; };
 		3EE2760D21FE831C00545339 /* MemesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE2760B21FE831C00545339 /* MemesTableViewCell.swift */; };
 		3EE2760E21FE831C00545339 /* MemesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE2760C21FE831C00545339 /* MemesTableViewCell.xib */; };
+		91AE77E86A8F71E20BB44C2F /* Pods_ESGI_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3CA15DE416CBEBD6C276DB /* Pods_ESGI_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		060B0D694DCDC33561F9A280 /* Pods-ESGI-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-ESGI-SwiftUITests/Pods-ESGI-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E23A1D821F5384000391EF8 /* ESGI-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESGI-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E23A1DB21F5384000391EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E23A1E221F5384200391EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,8 +56,11 @@
 		3E23A1F721F5384200391EF8 /* ESGI-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESGI-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E23A1FB21F5384200391EF8 /* ESGI_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESGI_SwiftUITests.swift; sourceTree = "<group>"; };
 		3E23A1FD21F5384200391EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EADD05D221B23EC0074C35B /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		3EADD05E221B23EC0074C35B /* TagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagViewController.xib; sourceTree = "<group>"; };
 		3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesDetailViewController.swift; sourceTree = "<group>"; };
 		3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemesDetailViewController.xib; sourceTree = "<group>"; };
+		3EC9A3B52218473400DC639F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		3ECD3A3D21F66BD300B2B16A /* HomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClass.swift; sourceTree = "<group>"; };
 		3ECD3A3E21F66BD300B2B16A /* HomeClass.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeClass.xib; sourceTree = "<group>"; };
 		3ECD3A4221F677A100B2B16A /* Memes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memes.swift; sourceTree = "<group>"; };
@@ -62,10 +68,8 @@
 		3EDDC74C220A4D8400B7ED99 /* NewMemesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewMemesView.xib; sourceTree = "<group>"; };
 		3EE2760B21FE831C00545339 /* MemesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesTableViewCell.swift; sourceTree = "<group>"; };
 		3EE2760C21FE831C00545339 /* MemesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemesTableViewCell.xib; sourceTree = "<group>"; };
-		704CE746CFBFE33CF221847A /* Pods-ESGI-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-ESGI-SwiftTests/Pods-ESGI-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E3CA15DE416CBEBD6C276DB /* Pods_ESGI_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESGI_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1135A1B17E6FC44B5181CF /* Pods-ESGI-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-Swift.release.xcconfig"; path = "Target Support Files/Pods-ESGI-Swift/Pods-ESGI-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		D60FFA479FF22C9A8ECAE26D /* Pods-ESGI-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-ESGI-SwiftTests/Pods-ESGI-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED8DB649B1D2486C317A3621 /* Pods-ESGI-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-ESGI-SwiftUITests/Pods-ESGI-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F76C91F0C02D1D4727EC5A9A /* Pods-ESGI-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGI-Swift.debug.xcconfig"; path = "Target Support Files/Pods-ESGI-Swift/Pods-ESGI-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AE77E86A8F71E20BB44C2F /* Pods_ESGI_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +138,9 @@
 				3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */,
 				3EDDC74B220A4D8400B7ED99 /* NewMemesView.swift */,
 				3EDDC74C220A4D8400B7ED99 /* NewMemesView.xib */,
+				3EC9A3B52218473400DC639F /* CustomTabBarController.swift */,
+				3EADD05D221B23EC0074C35B /* TagViewController.swift */,
+				3EADD05E221B23EC0074C35B /* TagViewController.xib */,
 			);
 			path = "ESGI-Swift";
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 		A947F746CC058E6D53B4F42C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E3CA15DE416CBEBD6C276DB /* Pods_ESGI_Swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,10 +191,6 @@
 			children = (
 				F76C91F0C02D1D4727EC5A9A /* Pods-ESGI-Swift.debug.xcconfig */,
 				9E1135A1B17E6FC44B5181CF /* Pods-ESGI-Swift.release.xcconfig */,
-				D60FFA479FF22C9A8ECAE26D /* Pods-ESGI-SwiftTests.debug.xcconfig */,
-				704CE746CFBFE33CF221847A /* Pods-ESGI-SwiftTests.release.xcconfig */,
-				ED8DB649B1D2486C317A3621 /* Pods-ESGI-SwiftUITests.debug.xcconfig */,
-				060B0D694DCDC33561F9A280 /* Pods-ESGI-SwiftUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				3E23A1D421F5384000391EF8 /* Sources */,
 				3E23A1D521F5384000391EF8 /* Frameworks */,
 				3E23A1D621F5384000391EF8 /* Resources */,
+				313DFDDD0569B196018AE734 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,7 +221,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E23A20321F5384200391EF8 /* Build configuration list for PBXNativeTarget "ESGI-SwiftTests" */;
 			buildPhases = (
-				7FE6D857E220A07708DF1AE9 /* [CP] Check Pods Manifest.lock */,
 				3E23A1E821F5384200391EF8 /* Sources */,
 				3E23A1E921F5384200391EF8 /* Frameworks */,
 				3E23A1EA21F5384200391EF8 /* Resources */,
@@ -234,7 +239,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E23A20621F5384200391EF8 /* Build configuration list for PBXNativeTarget "ESGI-SwiftUITests" */;
 			buildPhases = (
-				631C61706F75FDCAAD8577E4 /* [CP] Check Pods Manifest.lock */,
 				3E23A1F321F5384200391EF8 /* Sources */,
 				3E23A1F421F5384200391EF8 /* Frameworks */,
 				3E23A1F521F5384200391EF8 /* Resources */,
@@ -302,6 +306,7 @@
 				3E23A1E621F5384200391EF8 /* LaunchScreen.storyboard in Resources */,
 				3EE2760E21FE831C00545339 /* MemesTableViewCell.xib in Resources */,
 				3ECD3A4021F66BD300B2B16A /* HomeClass.xib in Resources */,
+				3EADD060221B23EC0074C35B /* TagViewController.xib in Resources */,
 				3E23A1E321F5384200391EF8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +328,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		631C61706F75FDCAAD8577E4 /* [CP] Check Pods Manifest.lock */ = {
+		313DFDDD0569B196018AE734 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,40 +336,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-ESGI-Swift/Pods-ESGI-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ESGI-SwiftUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7FE6D857E220A07708DF1AE9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ESGI-SwiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESGI-Swift/Pods-ESGI-Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEDEB4F8801287AA0B5B254B /* [CP] Check Pods Manifest.lock */ = {
@@ -397,9 +380,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB5F94B220394ED00C23B29 /* MemesDetailViewController.swift in Sources */,
+				3EC9A3B62218473400DC639F /* CustomTabBarController.swift in Sources */,
 				3E23A1DC21F5384000391EF8 /* AppDelegate.swift in Sources */,
 				3EE2760D21FE831C00545339 /* MemesTableViewCell.swift in Sources */,
 				3ECD3A4321F677A100B2B16A /* Memes.swift in Sources */,
+				3EADD05F221B23EC0074C35B /* TagViewController.swift in Sources */,
 				3ECD3A3F21F66BD300B2B16A /* HomeClass.swift in Sources */,
 				3EDDC74D220A4D8400B7ED99 /* NewMemesView.swift in Sources */,
 			);
@@ -602,7 +587,6 @@
 		};
 		3E23A20421F5384200391EF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60FFA479FF22C9A8ECAE26D /* Pods-ESGI-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -623,7 +607,6 @@
 		};
 		3E23A20521F5384200391EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 704CE746CFBFE33CF221847A /* Pods-ESGI-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,7 +627,6 @@
 		};
 		3E23A20721F5384200391EF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED8DB649B1D2486C317A3621 /* Pods-ESGI-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,7 +646,6 @@
 		};
 		3E23A20821F5384200391EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060B0D694DCDC33561F9A280 /* Pods-ESGI-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
