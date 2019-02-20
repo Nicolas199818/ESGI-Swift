@@ -1,16 +1,28 @@
 PODS:
-  - SideMenu (5.0.3)
+  - Alamofire (4.8.1)
+  - GiphyCoreSDK (1.4.1)
+  - ObjectMapper (3.4.2)
+  - SideMenuController (0.2.4)
 
 DEPENDENCIES:
-  - SideMenu
+  - Alamofire
+  - GiphyCoreSDK
+  - ObjectMapper
+  - SideMenuController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - SideMenu
+    - Alamofire
+    - GiphyCoreSDK
+    - ObjectMapper
+    - SideMenuController
 
 SPEC CHECKSUMS:
-  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  GiphyCoreSDK: 147a492c2477e9ddb20f8dd3a4489e3ea3c05e38
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
 
-PODFILE CHECKSUM: 980296aa2e61ee84f6c5118aa51dd0c8b372e07e
+PODFILE CHECKSUM: 3b45f6aeb30aeb91c2e4d6ab3528a8baccf36913
 
 COCOAPODS: 1.6.0
