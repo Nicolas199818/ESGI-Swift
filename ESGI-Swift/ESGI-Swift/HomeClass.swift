@@ -29,7 +29,6 @@ class HomeClass: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //on met un tableau en paramètre :
-        
         self.tableView.delegate = self
         self.tableView.dataSource = self
         

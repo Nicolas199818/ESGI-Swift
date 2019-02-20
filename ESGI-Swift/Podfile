@@ -6,6 +6,5 @@ target 'ESGI-Swift' do
   use_frameworks!
   pod 'Alamofire'
   pod 'ObjectMapper'
-  pod 'SideMenuController'
   pod 'GiphyCoreSDK'
 end

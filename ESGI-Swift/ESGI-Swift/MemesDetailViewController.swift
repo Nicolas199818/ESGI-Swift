@@ -23,9 +23,12 @@ class MemesDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let gifUrl = "https://media.giphy.com/media/Ov5NiLVXT8JEc/giphy.gif"
+        let imageURL = UIImage.gifImageWithURL(gifUrl)
+        self.image.image = imageURL
         self.type.text = meme.type
         self.titleLabel.text = meme.title
-        self.image.image = UIImage(named:"s-l300")
+        //self.image.image = UIImage.gifIm
     }
 
 

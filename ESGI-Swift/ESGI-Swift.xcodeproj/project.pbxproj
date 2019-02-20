@@ -21,6 +21,8 @@
 		3EADD06A221B629F0074C35B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADD068221B629F0074C35B /* GameViewController.xib */; };
 		3EB5F94B220394ED00C23B29 /* MemesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */; };
 		3EB5F94C220394ED00C23B29 /* MemesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */; };
+		3EC0909C221DA75E00AE774E /* MemesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0909B221DA75E00AE774E /* MemesService.swift */; };
+		3EC0909E221DF0AF00AE774E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0909D221DF0AF00AE774E /* File.swift */; };
 		3EC9A3B62218473400DC639F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9A3B52218473400DC639F /* CustomTabBarController.swift */; };
 		3ECD3A3F21F66BD300B2B16A /* HomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD3A3D21F66BD300B2B16A /* HomeClass.swift */; };
 		3ECD3A4021F66BD300B2B16A /* HomeClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD3A3E21F66BD300B2B16A /* HomeClass.xib */; };
@@ -70,6 +72,8 @@
 		3EADD068221B629F0074C35B /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesDetailViewController.swift; sourceTree = "<group>"; };
 		3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemesDetailViewController.xib; sourceTree = "<group>"; };
+		3EC0909B221DA75E00AE774E /* MemesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesService.swift; sourceTree = "<group>"; };
+		3EC0909D221DF0AF00AE774E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		3EC9A3B52218473400DC639F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		3ECD3A3D21F66BD300B2B16A /* HomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClass.swift; sourceTree = "<group>"; };
 		3ECD3A3E21F66BD300B2B16A /* HomeClass.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeClass.xib; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				3EADD064221B422F0074C35B /* tagTableViewCell.xib */,
 				3EADD067221B629F0074C35B /* GameViewController.swift */,
 				3EADD068221B629F0074C35B /* GameViewController.xib */,
+				3EC0909D221DF0AF00AE774E /* File.swift */,
 			);
 			path = "ESGI-Swift";
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 		3ECD3A3C21F66B7400B2B16A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3EC0909B221DA75E00AE774E /* MemesService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -357,7 +363,6 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GiphyCoreSDK/GiphyCoreSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/SideMenuController/SideMenuController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -366,7 +371,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GiphyCoreSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,6 +415,8 @@
 				3EADD05F221B23EC0074C35B /* TagViewController.swift in Sources */,
 				3EADD062221B292E0074C35B /* Tag.swift in Sources */,
 				3ECD3A3F21F66BD300B2B16A /* HomeClass.swift in Sources */,
+				3EC0909C221DA75E00AE774E /* MemesService.swift in Sources */,
+				3EC0909E221DF0AF00AE774E /* File.swift in Sources */,
 				3EADD069221B629F0074C35B /* GameViewController.swift in Sources */,
 				3EDDC74D220A4D8400B7ED99 /* NewMemesView.swift in Sources */,
 			);

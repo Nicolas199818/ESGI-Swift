@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65390CF306553F7A6091088EE67C6D2A"
+               BlueprintIdentifier = "EB0B595D52964A24AAF54393826E1216"
                BuildableName = "Pods_ESGI_Swift.framework"
                BlueprintName = "Pods-ESGI-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65390CF306553F7A6091088EE67C6D2A"
+            BlueprintIdentifier = "EB0B595D52964A24AAF54393826E1216"
             BuildableName = "Pods_ESGI_Swift.framework"
             BlueprintName = "Pods-ESGI-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
