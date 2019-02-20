@@ -20,22 +20,15 @@ class HomeClass: UIViewController {
     
     
     //C'est une fonction qui ne varie pas ne fonction des différentes classes
-    /*class func newInstance(memes:[Memes]) -> HomeClass{
+    class func newInstance(memes:[Memes]) -> HomeClass{
         let mtvc = HomeClass()
         mtvc.memes = memes
         return mtvc
-    }*/
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //on met un tableau en paramètre :
-        let test:Memes = Memes(title:"Le roi lion",type:"Dessin animé")
-        memes = [Memes]()
-        print(test)
-        memes.append(test)
-        memes.append(Memes(title:"La reine des neiges",type:"Dessin animé"))
-        memes.append(Memes(title:"Mulan",type:"Dessin animé"))
-        memes.append(Memes(title:"Coco",type:"Dessin animé"))
         
         self.tableView.delegate = self
         self.tableView.dataSource = self

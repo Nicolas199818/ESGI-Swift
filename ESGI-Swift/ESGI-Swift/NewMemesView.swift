@@ -60,6 +60,8 @@ class NewMemesView: UIViewController {
     //Dis au delegate que le user a choisie une image. Le delegate sert à la gestion des évènements.
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         memeImage.image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        //C'est ici que l'on met le code pour enregistrer l'api.
+        
         self.dismiss(animated: true, completion: nil)
     }
 

@@ -14,6 +14,11 @@
 		3E23A1FC21F5384200391EF8 /* ESGI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23A1FB21F5384200391EF8 /* ESGI_SwiftUITests.swift */; };
 		3EADD05F221B23EC0074C35B /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD05D221B23EC0074C35B /* TagViewController.swift */; };
 		3EADD060221B23EC0074C35B /* TagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADD05E221B23EC0074C35B /* TagViewController.xib */; };
+		3EADD062221B292E0074C35B /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD061221B292E0074C35B /* Tag.swift */; };
+		3EADD065221B422F0074C35B /* tagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD063221B422F0074C35B /* tagTableViewCell.swift */; };
+		3EADD066221B422F0074C35B /* tagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADD064221B422F0074C35B /* tagTableViewCell.xib */; };
+		3EADD069221B629F0074C35B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD067221B629F0074C35B /* GameViewController.swift */; };
+		3EADD06A221B629F0074C35B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADD068221B629F0074C35B /* GameViewController.xib */; };
 		3EB5F94B220394ED00C23B29 /* MemesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */; };
 		3EB5F94C220394ED00C23B29 /* MemesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */; };
 		3EC9A3B62218473400DC639F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9A3B52218473400DC639F /* CustomTabBarController.swift */; };
@@ -58,6 +63,11 @@
 		3E23A1FD21F5384200391EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EADD05D221B23EC0074C35B /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 		3EADD05E221B23EC0074C35B /* TagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagViewController.xib; sourceTree = "<group>"; };
+		3EADD061221B292E0074C35B /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		3EADD063221B422F0074C35B /* tagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagTableViewCell.swift; sourceTree = "<group>"; };
+		3EADD064221B422F0074C35B /* tagTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tagTableViewCell.xib; sourceTree = "<group>"; };
+		3EADD067221B629F0074C35B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3EADD068221B629F0074C35B /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		3EB5F949220394ED00C23B29 /* MemesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesDetailViewController.swift; sourceTree = "<group>"; };
 		3EB5F94A220394ED00C23B29 /* MemesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemesDetailViewController.xib; sourceTree = "<group>"; };
 		3EC9A3B52218473400DC639F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
@@ -141,6 +151,10 @@
 				3EC9A3B52218473400DC639F /* CustomTabBarController.swift */,
 				3EADD05D221B23EC0074C35B /* TagViewController.swift */,
 				3EADD05E221B23EC0074C35B /* TagViewController.xib */,
+				3EADD063221B422F0074C35B /* tagTableViewCell.swift */,
+				3EADD064221B422F0074C35B /* tagTableViewCell.xib */,
+				3EADD067221B629F0074C35B /* GameViewController.swift */,
+				3EADD068221B629F0074C35B /* GameViewController.xib */,
 			);
 			path = "ESGI-Swift";
 			sourceTree = "<group>";
@@ -174,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				3ECD3A4221F677A100B2B16A /* Memes.swift */,
+				3EADD061221B292E0074C35B /* Tag.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -305,6 +320,8 @@
 				3EDDC74E220A4D8400B7ED99 /* NewMemesView.xib in Resources */,
 				3E23A1E621F5384200391EF8 /* LaunchScreen.storyboard in Resources */,
 				3EE2760E21FE831C00545339 /* MemesTableViewCell.xib in Resources */,
+				3EADD066221B422F0074C35B /* tagTableViewCell.xib in Resources */,
+				3EADD06A221B629F0074C35B /* GameViewController.xib in Resources */,
 				3ECD3A4021F66BD300B2B16A /* HomeClass.xib in Resources */,
 				3EADD060221B23EC0074C35B /* TagViewController.xib in Resources */,
 				3E23A1E321F5384200391EF8 /* Assets.xcassets in Resources */,
@@ -383,9 +400,12 @@
 				3EC9A3B62218473400DC639F /* CustomTabBarController.swift in Sources */,
 				3E23A1DC21F5384000391EF8 /* AppDelegate.swift in Sources */,
 				3EE2760D21FE831C00545339 /* MemesTableViewCell.swift in Sources */,
+				3EADD065221B422F0074C35B /* tagTableViewCell.swift in Sources */,
 				3ECD3A4321F677A100B2B16A /* Memes.swift in Sources */,
 				3EADD05F221B23EC0074C35B /* TagViewController.swift in Sources */,
+				3EADD062221B292E0074C35B /* Tag.swift in Sources */,
 				3ECD3A3F21F66BD300B2B16A /* HomeClass.swift in Sources */,
+				3EADD069221B629F0074C35B /* GameViewController.swift in Sources */,
 				3EDDC74D220A4D8400B7ED99 /* NewMemesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
