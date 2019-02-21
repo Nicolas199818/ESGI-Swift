@@ -39,11 +39,19 @@ class HomeClass: UIViewController {
             UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(touchEditTableView)),
             UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(touchNewMovie))
         ]
-        
+        MemesService.default.getTendencingMemes(){(meme) in
+            self.insertNewRow(meme: meme)
+            
+        }
         // Do any additional setup after loading the view.
     }
     
-    
+    func insertNewRow(meme:Memes){
+        memes.append(meme)
+        tableView.insertRows(at: [
+            NSIndexPath(row: memes.count-1, section: 0) as IndexPath], with: .automatic)
+        self.tableView.reloadData()
+    }
     
     @objc func touchNewMovie() {
     self.navigationController?.pushViewController(NewMemesView.newInstance(), animated: true)

@@ -111,7 +111,7 @@ public typealias GPHJSONCompletionHandler = (_ data: GPHJSONObject?, _ response:
     @objc
     @discardableResult public func trending(_  media: GPHMediaType = .gif,
                                      offset: Int = 0,
-                                     limit: Int = 25,
+                                     limit: Int = 10,
                                      rating: GPHRatingType = .ratedR,
                                      completionHandler: @escaping (_ response: GPHListMediaResponse?, _ error: Error?) -> Void) -> Operation {
         

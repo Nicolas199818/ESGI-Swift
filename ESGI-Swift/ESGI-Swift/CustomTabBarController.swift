@@ -46,13 +46,17 @@ class CustomTabBarController : UITabBarController{
         //On référence ensuite la page des settings :
         let settingsViewController = createNavControllerWithImageTitle(title: "Settings", imageName: "icons8-settings-30",view: HomeClass.newInstance(memes: memes))
         
+        let homeClassController = self.createNavControllerWithImageTitle(title: "Accueil", imageName: "icons8-accueil-30", view: HomeClass.newInstance(memes: [Memes]()))
+        
+        //Dans un premier temps, on cherche à inséré une ligne dans le homeClass.
         
         
-        MemesService.default.getTendencingMemes(){ (memes) in
-            let homeClassController = self.createNavControllerWithImageTitle(title: "Accueil", imageName: "icons8-accueil-30", view: HomeClass.newInstance(memes: [Memes]()))
-            self.viewControllers = [homeClassController,tagsViewController,gameViewController,settingsViewController]
+        self.viewControllers = [homeClassController,tagsViewController,gameViewController,settingsViewController]
+        
+        /*MemesService.default.getTendencingMemes(){ (memes) in
             
-        }
+            
+        }*/
         
         
         
