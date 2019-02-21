@@ -21,7 +21,7 @@ public class MemesService {
     }
     
     //On fait une fonction qui permet de récupérer les gifs à la mode :
-    public func getTendencingMemes() -> [Memes]{
+    public func getTendencingMemes(completion: @escaping ([Memes]) -> Void)/* -> [Memes]*/{
         var tableauMemes = [Memes]()
         let op = GiphyCore.shared.trending { (response, error) in
             
@@ -44,16 +44,12 @@ public class MemesService {
                     tableauMemes.append(Memes(title: titles ,url: images))
                     self.isFinished = true
                 }
+                completion(tableauMemes)
             } else {
                 print("No Results Found")
             }
         }
-        //On test
-        while(isFinished == false){
-            sleep(1)
-        }
-        self.isFinished = false
-        return tableauMemes
+        
     }
     
     

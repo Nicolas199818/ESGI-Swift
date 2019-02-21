@@ -19,9 +19,9 @@ class CustomTabBarController : UITabBarController{
         memes.append(Memes(title:"Coco",url:"https://media0.giphy.com/media/aEXP6scfSSwQo/giphy.gif"))
         memes.append(Memes(title:"Le roi Lion",url:"https://media0.giphy.com/media/aEXP6scfSSwQo/giphy.gif"))
         
-        let listMemes = MemesService.default.getTendencingMemes()
+        //let listMemes = MemesService.default.getTendencingMemes()
         
-        let homeClassController = createNavControllerWithImageTitle(title: "Accueil", imageName: "icons8-accueil-30", view: HomeClass.newInstance(memes: listMemes))
+        
         
         
         
@@ -47,7 +47,15 @@ class CustomTabBarController : UITabBarController{
         let settingsViewController = createNavControllerWithImageTitle(title: "Settings", imageName: "icons8-settings-30",view: HomeClass.newInstance(memes: memes))
         
         
-        viewControllers = [homeClassController,tagsViewController,gameViewController,settingsViewController]
+        
+        MemesService.default.getTendencingMemes(){ (memes) in
+            let homeClassController = self.createNavControllerWithImageTitle(title: "Accueil", imageName: "icons8-accueil-30", view: HomeClass.newInstance(memes: [Memes]()))
+            self.viewControllers = [homeClassController,tagsViewController,gameViewController,settingsViewController]
+            
+        }
+        
+        
+        
         
     }
     
