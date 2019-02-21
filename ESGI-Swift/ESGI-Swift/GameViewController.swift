@@ -11,6 +11,7 @@ import UIKit
 class GameViewController: UIViewController {
     @IBOutlet weak var loadButton: UIButton!
     @IBOutlet weak var memeImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,9 @@ class GameViewController: UIViewController {
     }
 
     @IBAction func loadGif(_ sender: Any) {
-        self.memeImage.image = UIImage(named:"s-l300")
+        var meme = MemesService.default.getRandomMemes()
+        memeImage.image = UIImage.gifImageWithURL(meme.url)
+        titleLabel.text = meme.title
     }
     
     /*

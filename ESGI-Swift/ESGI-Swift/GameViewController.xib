@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="loadButton" destination="ggh-gd-qZO" id="7Yz-e5-zrR"/>
                 <outlet property="memeImage" destination="pkh-5w-kDv" id="heo-hg-D8w"/>
+                <outlet property="titleLabel" destination="JPh-M8-osH" id="Izk-KI-5e8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pkh-5w-kDv">
-                    <rect key="frame" x="5" y="40" width="365" height="347"/>
+                    <rect key="frame" x="5" y="69" width="365" height="358"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggh-gd-qZO">
                     <rect key="frame" x="20" y="457" width="335" height="110"/>
@@ -35,16 +36,25 @@
                         <action selector="loadGif:" destination="-1" eventType="touchUpInside" id="tgv-c8-nCF"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPh-M8-osH">
+                    <rect key="frame" x="20" y="43" width="335" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="ggh-gd-qZO" firstAttribute="top" secondItem="pkh-5w-kDv" secondAttribute="bottom" constant="70" id="1tK-sL-9l1"/>
+                <constraint firstItem="ggh-gd-qZO" firstAttribute="top" secondItem="pkh-5w-kDv" secondAttribute="bottom" constant="30" id="1tK-sL-9l1"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ggh-gd-qZO" secondAttribute="bottom" constant="100" id="5Sx-2J-nGn"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ggh-gd-qZO" secondAttribute="trailing" constant="20" id="6QU-07-yAi"/>
                 <constraint firstItem="ggh-gd-qZO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Brc-xU-Tam"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JPh-M8-osH" secondAttribute="trailing" constant="20" id="E4n-fo-f4s"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pkh-5w-kDv" secondAttribute="trailing" constant="5" id="S9D-aJ-WOx"/>
+                <constraint firstItem="JPh-M8-osH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="23" id="XYh-qh-Ejn"/>
+                <constraint firstItem="pkh-5w-kDv" firstAttribute="top" secondItem="JPh-M8-osH" secondAttribute="bottom" constant="26" id="Z0z-pm-uZg"/>
                 <constraint firstItem="pkh-5w-kDv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="hrK-HX-6jC"/>
-                <constraint firstItem="pkh-5w-kDv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="zci-HK-gX7"/>
+                <constraint firstItem="JPh-M8-osH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="hu0-eF-I6J"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
