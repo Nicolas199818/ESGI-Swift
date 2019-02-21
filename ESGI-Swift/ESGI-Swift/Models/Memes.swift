@@ -11,13 +11,11 @@ import UIKit
 
 public struct Memes{
     var title:String
-    //var image:UIImage
-    var type:String
+    var url:String
     
-    init(title:String,type:String){
+    init(title:String,url:String){
         self.title = title
-      //  self.image = image
-        self.type = type
+        self.url = url
     }
     
 }

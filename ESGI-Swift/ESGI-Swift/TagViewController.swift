@@ -40,8 +40,8 @@ extension TagViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let tag = self.tags[indexPath.row]
         var memes = [Memes]()
-        memes.append(Memes(title:"La reine des neiges",type:"Dessin animé"))
-        memes.append(Memes(title:"Mulan",type:"Dessin animé"))
+        memes.append(Memes(title:"La reine des neiges",url:"Dessin animé"))
+        memes.append(Memes(title:"Mulan",url:"Dessin animé"))
         let listMemesTag = HomeClass.newInstance(memes: memes)
         self.navigationController?.pushViewController(listMemesTag, animated: true)
     }

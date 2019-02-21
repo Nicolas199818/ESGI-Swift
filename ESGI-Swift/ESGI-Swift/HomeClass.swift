@@ -106,9 +106,9 @@ extension HomeClass:UITableViewDataSource {
         //C'est ici que l'on va récupérer le contenu de la cellule et le mettre dans le tableau
         let meme = self.memes[indexPath.row]
         cell.titleLabel.text = meme.title
-        cell.typeMemes.text = meme.type
+        cell.typeMemes.text = "A supprimer"
         //C'est ici que l'on va ajouter l'image de notre projet.
-        cell.imageMemes.image = UIImage(named: "s-l300")
+        cell.imageMemes.image = UIImage.gifImageWithURL(meme.url)
         return cell
     }
     

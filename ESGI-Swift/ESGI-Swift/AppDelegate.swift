@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //On initialise la fenêtre UIWindow
         GiphyCore.configure(apiKey: "r7lu0uTN4NYU7RQD2NAhy9oqi8zXapQK")
-        MemesService.default.getTendencingMemes()
         let w = UIWindow(frame: UIScreen.main.bounds)
         w.makeKeyAndVisible()
         
